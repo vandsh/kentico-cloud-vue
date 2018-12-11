@@ -13,6 +13,7 @@
     "plugin:vue/essential"
   ],
   "rules": {
+	"no-console": "off",
     "indent": [
       "error",
       2
