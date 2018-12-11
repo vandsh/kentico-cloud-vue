@@ -155,7 +155,7 @@ export default {
     setNewProjectId(newProjectId, newlyGeneratedProject) {
       if (!isUUID(newProjectId)) {
         const message = `Selected project (${newProjectId}) is not a valid GUID`;
-        console.error(message);
+        //console.error(message);
         alert(message);
         this.currentProjectInputValue = this.projectIdCookie;
         return;
